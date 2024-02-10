@@ -15,10 +15,9 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
     #input stuff
-input_text = input()
-#check
-result = palindrome(input_text)
-
-print(result)
+if __name__ == '__main__':
+    input_text = input()
+    result = palindrome(input_text)
+    print(result)
 
 #pushing to make sure all the autograding stuff works
